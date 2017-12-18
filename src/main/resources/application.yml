@@ -1,0 +1,14 @@
+datasource:
+  driver-class-name: org.postgresql.Driver
+  url: jdbc:postgresql://192.168.128.129:5432/test
+  username: postgres
+  password: 123456
+  config-location: mybatis-web-config.xml
+
+
+ota-datasource:
+  driver-class-name: org.postgresql.Driver
+  url: jdbc:postgresql://192.168.128.129:5432/test01
+  username: postgres
+  password: 123456
+  config-location: mybatis-web-config.xml
